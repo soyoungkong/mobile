@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HellowAndroid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">메뉴</string>
+    <string name="menu1">메인으로</string>
+    <string name="menu2">두번째 화면으로</string>
+    <string name="menu3">세번째 화면으로</string>
+
+</resources>

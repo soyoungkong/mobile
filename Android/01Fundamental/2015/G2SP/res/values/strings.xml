@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">G2SP</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_intro">IntroActivity</string>
+
+    <string-array name="intro_text">
+        <item>그 날... 내 팔이 뽑혔다.</item>
+        <item>너무나 갑작스러운 나머지...</item>
+        <item>나는 외마디 비명조차 지를 수 없었고...</item>
+        <item>통증은 빠르게 전신으로 퍼져나갔다.</item>
+        <item>나의 아픔과 무관하게</item>
+        <item>내 팔을 뽑은 두 사람...</item>
+        <item>영우와...</item>
+        <item>태훈형은...</item>
+        <item>배를 잡고 웃고 있었다...</item>
+        <item>그것이 시작이었다...</item>
+        <item>내가 복수를 결심한 것은...</item>
+    </string-array>
+
+    <string-array name="story_0">
+        <item>{공백}나는 어쩐지 1이 4개 모인 게 불안했다.</item>
+        <item>그리고 이런 불길한 예감은 ...</item>
+        <item>어김없이 적중했다.</item>
+        <item>그 날...</item>
+        <item>{지하철}지하철로 향하는 발걸음은</item>
+        <item>언제나 가볍기 마련이어서</item>
+        <item>나는 언제나와 같이 들 떠 있었다.</item>
+        <item>태훈이형, 영우, 그리고 나</item>
+        <item>이렇게 셋이 어깨동무를 하며</item>
+        <item>계단을 내려가고 있었다.</item>
+        <item>2개, 3개, 4개</item>
+        <item>계단을 점프하며 내려갔다.</item>
+        <item>그리고 그 때</item>
+        <item>사건이 일어났다</item>
+    </string-array>
+    
+    <string-array name="story_1">
+        <item>{공백}빠지지지직</item>
+        <item>앗 ,엇..!!!</item>
+        <item>어깨가 꺾였다.</item>
+        <item>태훈이 형은 내가 웃고 있었다고 했지만</item>
+        <item>나는 웃고 있지 않았다</item>
+        <item>그러니까... 나는...</item>
+        <item>아무런 위로도 받지</item>
+        <item>못했던 것이다. </item>
+    </string-array>
+    <string-array name="story_2">
+        <item>{강의실}[태훈형] : 아놔 무슨 변신로보트도 아니고  분리가  되네 ㅋㅋ   </item>
+        <item>[영우] : 이제 합체해야지, 자자 이렇게 끼워볼까?   </item>
+        <item>[태훈형] : 위기에 처하면 도마뱀처럼 꼬리짜르듯 팔도 떼어내는 석혼아,   </item>
+        <item>너. 오늘 안으로 팔도 재생되는 거냐?   </item>
+        <item>[영우] : ㅋㅋ  아, 형 그냥 빨리 팔 끼워봐요오오~   </item>
+        <item>[태훈형] : 자자, 그러 맞춰 볼까요ㅋㅋ   </item>
+    </string-array>
+    <string-array name="story_3">
+        <item>{공백}배신자들...</item>
+        <item>이제까지 좋은 친구와...</item>
+        <item>좋은 형이라고 생각했던</item>
+        <item>그들은</item>
+        <item>내 오른쪽 어깨에 파고드는 통증에</item>
+        <item>어떤 관심도 가지지 않았고</item>
+        <item>또, 어떠한 위로의 말도 하지 않았다</item>
+        <item>그리고...</item>
+        <item>그 날 이후...</item>
+        <item>난  도무지 아물지 않고 욱신거리는 어깨의 통증을 느껴야했고</item>
+        <item>2주간 코딩도 하지 못한 채</item>
+        <item>하루하루를 보내야 했다.</item>
+    </string-array>
+    <string-array name="story_4">
+        <item>{강의실}점심시간 강의실</item>
+        <item>강의실엔 모두 점심먹으러 간 뒤라 사람이 없다.</item>
+        <item>강의실에서는 나와 태훈이형 영우만 있었다.</item>
+        <item>[석혼] : 태훈이형하고 영우는 저 좀 보죠</item>
+        <item>[영우] : 그냥 여기서 얘기해 딴 데 가서 뭐하려고 그러냐?</item>
+        <item>[석혼] : 음..단도직입적으로 얘기 할게요 그때 솔직히 기분 나빴거든요 사과하시죠</item>
+        <item>[태훈형] : 야 장난이잖아 장난가지고 왜그러냐??ㅎㅎ</item>
+        <item>[석혼] : 전 엄청 기분나빴었고..2주통안 통증도 있었거든요??  진짜 도가 넘칠정도로 심하게 장난쳤으니까 사과하세요</item>
+        <item>[영우] : 왜 사과해야되는 데 난 전혀 잘못한 게 없음</item>
+        <item>[태훈형] : 나도 없어 그냥 밥이나 먹으러 가라</item>
+        <item>{공백}석혼은 태훈이형 말을 듣고 욱해서 영우와 태훈이형한테 달려드는데... $$</item>
+    </string-array>
+    <string-array name="story_5">
+        <item>{강의실}[영우@] : 별것도 아닌게 덤비고 있어</item>
+    </string-array>
+    <string-array name="story_6">
+        <item>{공백}[석혼] : 으으... 이렇게 복수도 못하고....</item>
+        <item>석혼은 쓰러진상태에서 눈이 점점 감겨 의식을 잃었다.</item>
+    </string-array>
+    <string-array name="story_7">
+        <item>{공백}[의문의 사나이] : 눈 떠 언제까지 잘꺼야??</item>
+        <item>[석혼] : ?? 여긴 어디지??</item>
+        <item>{사막}[의문의 사나이] : 여길 봐 이놈아</item>
+        <item>[석혼] : 엇? 종휘형?? 형 취업하시지 않았어요???</item>
+        <item>[종휘형 닮은사람] : 무슨 소리 하는거야?</item>
+        <item>[석혼] : 윽.. 그럼 누구세요?? (주위를 둘러본 후) 여긴어디죠??</item>
+        <item>[종휘형 닮은사람] : 여기는 동화마을이고 나는 안보노라고 한다.</item>
+        <item>[석혼] : ......음.. 동화마을이요??? 여기엔 내가 왜왔지??</item>
+        <item>[안보노 선생] : 내가 널 여기로 불렀다. 너는 마침 수련이 필요할 것 같아 너를 불렀다.</item>
+        <item>[석혼] : ....</item>
+        <item>[안보노 선생] : 왜?? 내가 필요없나?</item>
+        <item>[석혼] : 아닙니다. 선생님 제게 싸움을 알려주세요. 영우와 태훈형에게 복수를 하고싶어요!</item>
+        <item>[안보노 선생] : 껄껄껄.. 하지만 공짜로는 알려줄수 없다. 대신 내가 원하는 물건을 가져오면 그때마다 기술을 알려주마</item>
+        <item>[석혼] : 뭐가 필요하신거죠??</item>
+        <item>[안보노 선생] : 그건 차차 알려줄것이고..지금 너의 모습은 너무 부실해 보이는구나 내가 5000냥과 떡5개를 줄테니 이걸 먹고 레벨5가 된 뒤에 다시 찾아 오너라 </item>
+    </string-array>
+    <string name="title_activity_title">TitleActivity</string>
+    <string name="title_activity_prologue">PrologueActivity</string>
+    <string name="title_activity_main_story">MainStoryActivity</string>
+    <string name="title_activity_talk">TalkActivity</string>
+
+    
+</resources>

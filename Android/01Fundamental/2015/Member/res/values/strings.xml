@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Member</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">회원가입</string>
+    <string name="title_activity_member_input">MemberInputActivity</string>
+    <string name="title_activity_member_input_result">MemberInputResultActivity</string>
+    <string name="title_activity_modify">ModifyActivity</string>
+    <string name="title_activity_member_modify">MemberModifyActivity</string>
+    <string name="title_activity_member_modify_result">MemberModifyResultActivity</string>
+
+</resources>

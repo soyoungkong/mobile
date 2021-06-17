@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sqllight.MainActivity" >
+
+    <item
+        android:id="@+id/menu_insert"
+        android:title="게시판 입력"/>
+    <item
+        android:id="@+id/menu_list"
+        android:title="게시판 조회"/>
+    <item
+        android:id="@+id/menu_modify"
+        android:title="게시판 수정"/>
+    <item
+        android:id="@+id/menu_delete"
+        android:title="게시판 삭제"/>
+
+</menu>

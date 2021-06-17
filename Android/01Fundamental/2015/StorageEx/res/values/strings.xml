@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StorageEx</string>
+    <string name="home">홈</string>
+    <string name="sharedPreferences">공유 저장소</string>
+    <string name="interalStorage">내부 저장소</string>
+    <string name="exteralStorage">외부 저장소</string>
+    <string name="title_activity_interal_list">InteralListActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_note">AddNoteActivity</string>
+
+</resources>

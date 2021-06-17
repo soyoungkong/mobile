@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!--
+		android:pivotX="50%"		:	중심점 x 지정
+   		android:pivotY="50%"		:	중심점 y 지정
+   		
+   		android:toXScale="1.0"		:	시작 x의 크기 (0.0이 최소)
+    	android:toYScale="1.0"		:	시작 y의 크기 (0.0이 최소)
+    	android:fromXScale="0.0"		:	종료 x의 크기 (1.0이 최대)
+    	android:fromYScale="0.0"		:	종료 y의 크기 (1.0이 최대)
+    
+    	android:duration="3000"	:	1이 가 되는데까지 걸리는 시간
+		android:interpolator 		:	점점 가속
+  -->
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:toXScale="0.0"
+    android:toYScale="0.0"
+    
+    android:fromXScale="1.0"
+    android:fromYScale="1.0"
+    
+    android:duration="3000"
+    
+    android:pivotX="50%"
+    android:pivotY="50%"
+    
+    android:interpolator="@android:anim/accelerate_interpolator" 
+    >
+
+</scale>

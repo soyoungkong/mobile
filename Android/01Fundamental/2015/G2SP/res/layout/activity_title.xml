@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/title"
+    tools:context="com.example.g2sp.TitleActivity" >
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_continue"
+        android:layout_alignBottom="@+id/btn_continue"
+        android:layout_centerHorizontal="true"
+        android:onClick="gameStart"
+        android:text="시작하기" />
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_end"
+        android:layout_alignBottom="@+id/btn_end"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/btn_start"
+        android:onClick="gameContinue"
+        android:text="이어하기" />
+
+    <Button
+        android:id="@+id/btn_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="22dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/btn_start"
+        android:onClick="gameEnd"
+        android:text="종료하기" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="FirstFrag_ In_" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginTop="70dp"
+        android:background="#44FF0000"
+        android:paddingRight="200dp"
+        android:textColor="#ffffff"
+        android:shadowColor="#FF000000"
+     	android:shadowDx="1.0"
+    	android:shadowDy="1.0"
+     	android:shadowRadius="1.0"
+     
+        android:text="내 어깨를 부수고 팔을 뺀 너를 내가 죽더라고 꼭 너의 팔을 빼주마 " />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:maxHeight="180dp"
+        android:src="@drawable/ch1" />
+
+</RelativeLayout>

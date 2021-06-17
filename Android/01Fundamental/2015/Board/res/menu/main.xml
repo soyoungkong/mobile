@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="kr.young.board.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+    <item
+        android:id="@+id/board_list"
+        android:title="@string/board_list"/>
+    
+     <item
+        android:id="@+id/board_view"
+        android:title="@string/board_view"/>
+     
+      <item
+        android:id="@+id/board_insert"
+        android:title="@string/board_insert"/>
+      
+      <item
+        android:id="@+id/board_modify"
+        android:title="@string/board_modify"/>
+      
+       <item
+        android:id="@+id/board_delete"
+        android:title="@string/board_delete"/>
+        
+</menu>

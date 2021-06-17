@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Board</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">MainPage</string>
+    <string name="board_list">List</string>
+    <string name="board_view">View</string>
+    <string name="board_insert">Input</string>
+    <string name="board_modify">Modify</string>
+    <string name="board_delete">Delete</string>
+
+</resources>

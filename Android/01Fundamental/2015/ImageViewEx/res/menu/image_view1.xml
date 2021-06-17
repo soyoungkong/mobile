@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="kr.young.imageviewex.ImageView1Activity" >
+
+    <item
+        android:id="@+id/option_menu1"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/option_menu1"/>
+
+</menu>

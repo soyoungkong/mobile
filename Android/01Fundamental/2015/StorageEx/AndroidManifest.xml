@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.young.storageex"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="20" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ExteralStorageActivity"
+            android:label="@string/sharedPreferences" >
+        </activity>
+        <activity
+            android:name=".InteralStorageActivity"
+            android:label="@string/interalStorage" >
+        </activity>
+        <activity
+            android:name=".SharedPreferencesActivity"
+            android:label="@string/exteralStorage" >
+        </activity>
+        <activity
+            android:name=".InteralListActivity"
+            android:label="@string/title_activity_interal_list" >
+        </activity>
+        <activity
+            android:name=".AddNoteActivity"
+            android:label="@string/title_activity_add_note" >
+        </activity>
+    </application>
+
+</manifest>

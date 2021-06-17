@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="kr.young.fragmentex.MainActivity" >
+
+    <item
+        android:id="@+id/menu_feag_add"
+        android:title="fragment에 추가"/>
+    
+    <item
+        android:id="@+id/menu_feag_replace"
+        android:title="fragment를 교체"/>
+    <item
+        android:id="@+id/menu_layout_add"
+        android:title="layout를 추가"/>
+    <item
+        android:id="@+id/menu_layout_replace"
+        android:title="layout을 교체"/>
+
+</menu>

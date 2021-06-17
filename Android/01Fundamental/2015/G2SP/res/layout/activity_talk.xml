@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:id="@+id/talk_back_layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.g2sp.TalkActivity" >
+
+    <ImageView
+        android:id="@+id/char_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/null_img" />
+
+    <ImageView
+        android:id="@+id/char_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/null_img" />
+
+    <TextView
+        android:id="@+id/story_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#66ffffff"
+        android:maxLines="5"
+        android:minLines="5"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="200dp"
+        android:paddingTop="5dp"
+        android:text="TextView"
+        android:textColor="#444444" />
+
+    <ImageView
+        android:id="@+id/char_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:maxHeight="150dp"
+        android:src="@drawable/seokhon_1" />
+
+    <Button
+        android:onClick="nextStory"
+        android:id="@+id/btn_goNextStory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/char_main"
+        android:text="Next" />
+
+</RelativeLayout>
